@@ -7,17 +7,17 @@ def display_board(board)
     2.times
     {
       print " #{board[i]} |"
-      ind++
+      ind=ind+1
     }
     puts " #{board[i]} "
     puts "-----------"
-    ind++
+    ind=ind+1
   }
     2.times
     {
       print " #{board[i]} |"
-      ind++
+      ind=ind+1
     }
     puts " #{board[i]} "
-    ind++
+    
 end
