@@ -19,5 +19,5 @@ def display_board(board)
       ind=ind+1
     }
     puts " #{board[i]} "
-    
+
 end
