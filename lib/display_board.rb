@@ -2,10 +2,8 @@
 # out the current state.
 def display_board(board)
   ind=0
-  2.times
-  {
-    2.times
-    {
+  2.times{
+    2.times{
       print " #{board[i]} |"
       ind=ind+1
     }
@@ -13,8 +11,7 @@ def display_board(board)
     puts "-----------"
     ind=ind+1
   }
-    2.times
-    {
+    2.times{
       print " #{board[i]} |"
       ind=ind+1
     }
